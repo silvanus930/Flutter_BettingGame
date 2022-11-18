@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "572550305830",
+    "project_id": "koolbet237",
+    "storage_bucket": "koolbet237.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572550305830:android:b411236c792cfbc80d6ee7",
+        "android_client_info": {
+          "package_name": "com.example.flutter_betting_app.koolbet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572550305830-mambqkd8qk5299a8im6ucrkqietvgvjp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_betting_app.koolbet",
+            "certificate_hash": "92ebf70cf2e1fe3eb956ca2573c680f82c5e6722"
+          }
+        },
+        {
+          "client_id": "572550305830-evmmc4ijs6r3fnei857hn3nfonquh03n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBimF3ZwlKNeVKol5F396hPa6p7Vkorjq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572550305830-evmmc4ijs6r3fnei857hn3nfonquh03n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

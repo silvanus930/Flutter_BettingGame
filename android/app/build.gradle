@@ -1,0 +1,114 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 33
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.example.flutter_betting_app"
+        minSdkVersion 19
+        targetSdkVersion 33
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        multiDexEnabled true
+    }
+
+    flavorDimensions "app"
+
+    productFlavors {
+
+        demo7 {
+            dimension "app"
+            applicationId "com.example.flutter_betting_app.demo7"
+            versionCode 1
+            versionName "1.0"
+        }
+
+        koolbet {
+            dimension "app"
+            applicationId "com.example.flutter_betting_app.koolbet"
+            versionCode 1
+            versionName "1.76"
+        }
+
+        grandbet {
+            dimension "app"
+            applicationId "com.example.flutter_betting_app.grandbet"
+            versionCode 1
+            versionName "1.76"
+        }
+
+        betpalace {
+            dimension "app"
+            applicationId "com.example.flutter_betting_app.betpalace"
+            versionCode 1
+            versionName "1.76"
+        }
+    }
+
+    lintOptions {
+    checkReleaseBuilds false
+  }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+apply plugin: 'com.android.application'
+
+// Add this line
+apply plugin: 'com.google.gms.google-services'
+
+
+dependencies {
+  implementation platform('com.google.firebase:firebase-bom:30.5.0')
+  implementation 'com.google.firebase:firebase-messaging'
+  implementation 'com.google.firebase:firebase-auth'
+  implementation 'com.google.firebase:firebase-firestore'
+  implementation 'com.google.firebase:firebase-analytics'
+}

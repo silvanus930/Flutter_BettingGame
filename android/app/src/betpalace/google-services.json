@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "198262260445",
+    "project_id": "betpalace-3a999",
+    "storage_bucket": "betpalace-3a999.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198262260445:android:62b739804c1199bc6bd134",
+        "android_client_info": {
+          "package_name": "com.example.flutter_betting_app.betpalace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198262260445-lvknknu2a5aq3tpnv3t8111ur4m5bpde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_betting_app.betpalace",
+            "certificate_hash": "92ebf70cf2e1fe3eb956ca2573c680f82c5e6722"
+          }
+        },
+        {
+          "client_id": "198262260445-b2fmmq6oa76u1uilf0onbon4bh3gej3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeS7MhnGYxriOEERPnCpr7JVnyzgO-AJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198262260445-b2fmmq6oa76u1uilf0onbon4bh3gej3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

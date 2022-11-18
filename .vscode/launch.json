@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Demo7 Debug",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/builds/main_demo7.dart",
+            "args": [
+                "--no-sound-null-safety",
+                "--flavor",
+                "demo7"
+              ],
+        },
+        {
+            "name": "Demo7",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/builds/main_demo7.dart",
+            "args": [
+                "--no-sound-null-safety",
+                "--flavor",
+                "demo7"
+              ],
+            "flutterMode": "release"
+        },
+        {
+            "name": "Koolbet237",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/builds/main_koolbet.dart",
+            "args": [
+                "--no-sound-null-safety",
+                "--flavor",
+                "koolbet"
+              ],
+            "flutterMode": "release"
+        },
+        {
+            "name": "Grandbet",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/builds/main_grandbet.dart",
+            "args": [
+                "--no-sound-null-safety",
+                "--flavor",
+                "grandbet"
+              ],
+              "flutterMode": "release"
+        },
+    ]
+}

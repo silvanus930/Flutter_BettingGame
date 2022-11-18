@@ -1,0 +1,3 @@
+library config;
+
+var config;

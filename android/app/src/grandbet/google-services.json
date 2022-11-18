@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1060349867026",
+    "project_id": "grandbet-b05f6",
+    "storage_bucket": "grandbet-b05f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060349867026:android:2738d98a2b8f57d8ced4cb",
+        "android_client_info": {
+          "package_name": "com.example.flutter_betting_app.grandbet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060349867026-paofqmimudi49bebrtmc3tnf6r0oemsm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_betting_app.grandbet",
+            "certificate_hash": "92ebf70cf2e1fe3eb956ca2573c680f82c5e6722"
+          }
+        },
+        {
+          "client_id": "1060349867026-1um34r02h9nh9j0sci0r97b7laua84ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEBGrcKQuNl0Vrp8jJAuONWHrO5qtWIZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060349867026-1um34r02h9nh9j0sci0r97b7laua84ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

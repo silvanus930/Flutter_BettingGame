@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "380516760804",
+    "project_id": "bg-demo-e9abf",
+    "storage_bucket": "bg-demo-e9abf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380516760804:android:f79d36254f64d03a56c0f1",
+        "android_client_info": {
+          "package_name": "com.example.flutter_betting_app.demo7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380516760804-vr4uvktq05emvcs9o4sujsign3mu2tb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_betting_app.demo7",
+            "certificate_hash": "92ebf70cf2e1fe3eb956ca2573c680f82c5e6722"
+          }
+        },
+        {
+          "client_id": "380516760804-6bagnta8okaik8dc64b8qmsdald4arbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDzHa5l0emd-Q7H8Gm3cV3hMV0J3_ijm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380516760804-6bagnta8okaik8dc64b8qmsdald4arbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
